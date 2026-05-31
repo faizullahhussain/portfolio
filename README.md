@@ -1,16 +1,37 @@
-# React + Vite
+# Modern React Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional, high-performance responsive portfolio website built using **React**, **Vite**, and **SCSS**. This project showcases modern frontend engineering practices, including modular component architecture, automated contact form workflows, fluid UI animations, and streamlined production deployments.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://faizullahhussain.github.io/portfolio/](https://faizullahhussain.github.io/portfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Modern React Architecture:** Component-driven development utilizing custom hooks, clean functional syntax, and efficient state management.
+* **Fluid Motion UI:** Integrated dynamic entrance animations and interactive, smooth-sliding mobile navigation menus via `framer-motion`.
+* **Automated Email Service:** Integrated secure contact form workflow handling real-time client messages directly via EmailJS API.
+* **Fully Responsive & Accessible:** Crafted custom styling utilizing structural SCSS breakpoints for seamless mobile, tablet, and desktop viewing.
+* **Production Pipeline:** Configured secure environment variable management via `.env` alongside an automated deployment script leveraging `gh-pages`.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack & Architecture
+
+* **Core Framework:** React 18+ (Functional Components & Hooks)
+* **Build Tool:** Vite (Fast Hot Module Replacement)
+* **Styling & Layout:** SCSS (Variables, Mixins, Nesting) & Flexbox/Grid
+* **Animation Engine:** Framer Motion
+* **Form Integration:** EmailJS Browser API
+* **Navigation:** React Scroll (Smooth single-page navigation layout)
+
+---
+
+## 📦 Getting Started
+
+Follow these steps to set up the workspace locally on your system:
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/faizullahhussain/portfolio.git](https://github.com/faizullahhussain/portfolio.git)
+cd portfolio
