@@ -1098,6 +1098,9 @@ body {
   .profile-placeholder img {
     width: 68%;
   }
+  .skills {
+    padding: 0;
+  }
   .hero-container {
     grid-template-columns: 1fr;
   }

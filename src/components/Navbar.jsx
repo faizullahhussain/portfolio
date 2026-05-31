@@ -16,6 +16,9 @@ function Navbar() {
     { name: "Contact", to: "contact" },
   ];
 
+  // close Menu
+  const closeMenu = () => setIsOpen(false);
+
   return (
     <motion.nav
       className="navbar"
@@ -92,8 +95,14 @@ function Navbar() {
             transition={{ duration: 0.3 }}
           >
             {navItems.map((item, index) => (
-              <li key={index} onClick={() => setIsOpen(false)}>
-                <Link to={item.to} smooth={true} duration={500} offset={-80}>
+              <li key={index}>
+                <Link
+                  to={item.to}
+                  smooth={true}
+                  duration={500}
+                  offset={-80}
+                  onClick={closeMenu}
+                >
                   {item.name}
                 </Link>
               </li>
