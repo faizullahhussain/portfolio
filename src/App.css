@@ -1013,9 +1013,6 @@ body {
     padding: 30px 15px;
     margin: 10px;
   }
-  /* .hero-container {
-    grid-template-columns: 1fr;
-  } */
 
   .hero-name {
     font-size: 2.5rem;
@@ -1098,12 +1095,12 @@ body {
 }
 
 @media (max-width: 576px) {
-  /* .hero-description {
-    max-width: 280px;
+  .profile-placeholder img {
+    width: 68%;
   }
-  .hero .marquee-wrapper {
-    max-width: 280px;
-  } */
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
   .hero-buttons {
     flex-direction: row;
   }
