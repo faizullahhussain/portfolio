@@ -13,6 +13,7 @@ function Navbar() {
     { name: "About", to: "about" },
     { name: "Skills", to: "skills" },
     { name: "Projects", to: "projects" },
+    { name: "Certifications", to: "certifications" },
     { name: "Contact", to: "contact" },
   ];
 
