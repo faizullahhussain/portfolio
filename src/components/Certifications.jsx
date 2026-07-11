@@ -1,14 +1,25 @@
+import { motion } from "framer-motion";
+import { BsArrowRight } from "react-icons/bs";
+import { useInView } from "react-intersection-observer";
 import jsCertificate from "../assets/images/js-certificate.jpg";
 import reactCertificate from "../assets/images/react-certificate.jpg";
-import { BsArrowRight } from "react-icons/bs";
 
 const Certifications = () => {
+  const [ref, inView] = useInView({
+    threshold: 0.3,
+    triggerOnce: true,
+  });
   return (
-    <section className="certifications" id="certifications">
+    <section className="certifications" id="certifications" ref={ref}>
       <div className="container">
         <h2 className="section-title">Certifications</h2>
 
-        <div className="certificate-wrapper">
+        <motion.dev
+          initial={{ opacity: 0, y: 50 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6 }}
+          className="certificate-wrapper"
+        >
           <div className="certificate">
             <img src={jsCertificate} alt="" />
             <div className="certificate-details">
@@ -42,7 +53,7 @@ const Certifications = () => {
               </a>
             </div>
           </div>
-        </div>
+        </motion.dev>
       </div>
     </section>
   );
