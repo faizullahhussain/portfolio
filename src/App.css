@@ -26,6 +26,7 @@
 
 body {
   font-family: "JetBrains Mono", monospace;
+  font-family: "IBM Plex Sans", sans-serif;
   background-color: var(--bg-primary);
   color: var(--text-primary);
   line-height: 1.6;
@@ -100,7 +101,7 @@ body {
 .nav-menu a {
   color: var(--text-secondary);
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   cursor: pointer;
   transition: color 0.3s;
   font-size: 0.9rem;
@@ -364,7 +365,8 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.04);
   padding: 35px;
   border-radius: 12px;
-  font-family: "Fira Code", "JetBrains Mono", monospace;
+  /* font-family: "Fira Code", "JetBrains Mono", monospace; */
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 1.05rem;
   line-height: 1.75;
   color: #cbd5e1;
@@ -623,7 +625,7 @@ body {
   background: linear-gradient(135deg, #1e293b 0%, #1a1f35 100%);
   border: 1px solid rgba(99, 102, 241, 0.2);
   border-radius: 16px;
-  padding: 1rem;
+  padding: 1rem 1rem 0 1rem;
   flex: 1;
   position: relative;
   transition:
@@ -685,15 +687,15 @@ body {
 }
 
 .project-info h3 {
-  font-size: 0.9rem;
-  margin-bottom: 0.75rem;
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
   color: #a8ff53;
   font-weight: 700;
 }
 
 .project-info p {
   color: var(--text-secondary);
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.4rem;
   font-size: 0.9rem;
   line-height: 1.6;
   flex-grow: 1;
@@ -735,7 +737,7 @@ body {
   align-items: center;
   color: var(--text-secondary);
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   transition: color 0.3s ease;
 }
 
@@ -907,6 +909,7 @@ body {
   margin-right: 1rem;
   text-align: left;
   cursor: pointer;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 /* Footer */
 .footer {
@@ -1135,7 +1138,7 @@ body {
   .project-card-slider {
     grid-template-columns: 1fr;
     gap: 0;
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 0 1.5rem;
     min-height: auto;
   }
 

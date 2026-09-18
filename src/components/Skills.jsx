@@ -1,6 +1,13 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { FaCss3Alt, FaFigma, FaGitAlt, FaHtml5, FaReact } from "react-icons/fa";
+import {
+  FaCss3Alt,
+  FaFigma,
+  FaGitAlt,
+  FaHtml5,
+  FaReact,
+  FaWordpress,
+} from "react-icons/fa";
 import { SiBootstrap, SiJavascript, SiTailwindcss } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
 
@@ -22,6 +29,7 @@ function Skills() {
     { name: "Bootstrap", icon: <SiBootstrap />, color: "#563D7C" },
     { name: "Figma", icon: <FaFigma />, color: "#F24E1E" },
     { name: "Git", icon: <FaGitAlt />, color: "#F05032" },
+    { name: "Wordpress", icon: <FaWordpress />, color: "#006999" },
   ];
 
   const half = Math.ceil(skills.length / 2);
@@ -41,6 +49,10 @@ function Skills() {
             <h2 className="section-title">My Skills</h2>
 
             <ul className="skills-text-list">
+              <li>
+                <strong>WordPress Development:</strong> WordPress, Elementor,
+                Custom CSS, Theme Customization, Responsive Websites
+              </li>
               <li>
                 <strong>Core Engineering:</strong>JavaScript (ES6+), React.js,
                 HTML5, CSS3

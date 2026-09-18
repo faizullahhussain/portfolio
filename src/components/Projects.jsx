@@ -8,6 +8,9 @@ import harleymind from "../assets/images/harleymindcare.png";
 import moviesearch from "../assets/images/moviesearchtmbd.png";
 import voipcalling from "../assets/images/voipcalling.png";
 import voipbusiness from "../assets/images/voipbusiness.png";
+import houma from "../assets/images/houma.png";
+import a2pcalling from "../assets/images/a2pcalling.png";
+import remotePro from "../assets/images/remotepro.png";
 
 function Projects() {
   const [ref, inView] = useInView({
@@ -21,7 +24,7 @@ function Projects() {
     {
       title: "Financial Analytics Dashboard",
       description:
-        "A personal finance dashboard with dynamic charts, expense categorization, and real-time transaction tracking.",
+        "A personal finance dashboard with dynamic charts, expense tracking, and categorization.",
       tech: ["React", "SCSS", "LocalStorage"],
       type: "custom",
       github: "https://github.com/faizullahhussain/expense-tracker",
@@ -68,11 +71,38 @@ function Projects() {
     {
       title: "VoIP Platform",
       description:
-        "A responsive VoIP website showcasing business phone systems, calling features, and communication solutions.",
+        "A responsive VoIP website showcasing business phone systems and communication solutions",
       tech: ["WordPress", "All in One SEO", "Elementor"],
       type: "wordpress",
       live: "https://voipcalling.com/",
       image: voipcalling,
+    },
+    {
+      title: "City Guide & Listings",
+      description:
+        "A city guide and listing platform for discovering local businesses, services, restaurants, hotels, and attractions.",
+      tech: ["WordPress", "All in One SEO", "Elementor"],
+      type: "wordpress",
+      live: "https://houma.io/",
+      image: houma,
+    },
+    {
+      title: "A2P Calling",
+      description:
+        "A modern VoIP platform for managing business calls, numbers, call routing, CRM integration, and recording.",
+      tech: ["WordPress", "All in One SEO", "Elementor"],
+      type: "wordpress",
+      live: "https://a2pcalling.com/",
+      image: a2pcalling,
+    },
+    {
+      title: "Freelance Talent Platform",
+      description:
+        "A global platform connecting businesses with skilled freelancers across development and services.",
+      tech: ["WordPress", "All in One SEO", "Elementor"],
+      type: "wordpress",
+      live: "https://remote.pro/",
+      image: remotePro,
     },
   ];
 

@@ -1,6 +1,13 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { FaCss3Alt, FaFigma, FaGitAlt, FaHtml5, FaReact } from "react-icons/fa";
+import {
+  FaCss3Alt,
+  FaFigma,
+  FaGitAlt,
+  FaHtml5,
+  FaReact,
+  FaWordpress,
+} from "react-icons/fa";
 import { LuArrowDownToLine } from "react-icons/lu";
 import { SiBootstrap, SiJavascript, SiTailwindcss } from "react-icons/si";
 import profileImage from "../assets/images/profile-image.png";
@@ -18,6 +25,7 @@ function Hero() {
     { icon: <SiBootstrap />, color: "#563D7C" },
     { icon: <FaFigma />, color: "#F24E1E" },
     { icon: <FaGitAlt />, color: "#F05032" },
+    { icon: <FaWordpress />, color: "#006999" },
   ];
 
   const textVariants = {

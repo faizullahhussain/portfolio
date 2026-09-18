@@ -21,15 +21,18 @@ function About() {
           <div className="about-content">
             <div className="about-text">
               <p>
-                I am a passionate <strong>Frontend Engineer</strong> dedicated
-                to building modern, high-performance web applications. I love
-                turning complex interface challenges into simple, beautiful, and
-                intuitive user experiences.
+                I am a passionate WordPress Developer and Frontend Developer
+                focused on building modern, responsive, and high-performance
+                websites. I specialize in creating professional WordPress
+                websites using Elementor, custom CSS, and modern web development
+                practices, while also developing custom interfaces with
+                JavaScript and React.
               </p>
               <p>
-                With a strong foundation in modern <strong>JavaScript </strong>
-                and <strong>React</strong>, I specialize in crafting clean,
-                responsive layouts and smooth interactive elements from scratch.
+                I enjoy turning design ideas and complex requirements into
+                clean, intuitive, and user-friendly experiences. My focus is on
+                building websites that look great, perform well, and work
+                smoothly across all devices.
               </p>
             </div>
 
