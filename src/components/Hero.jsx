@@ -65,7 +65,7 @@ function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
           >
-            Frontend Developer
+            WordPress & Frontend Developer
           </motion.p>
 
           <motion.p
@@ -74,9 +74,9 @@ function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8 }}
           >
-            I build modern web experiences using React, JavaScript, and
-            WordPress — transforming design concepts into clean, responsive, and
-            high-performing websites.
+            I build modern WordPress websites using Elementor, WPBakery, Divi
+            WooCommerce and ACF — transforming design concepts into clean,
+            responsive, and user-friendly websites.
           </motion.p>
 
           <div className="marquee-wrapper">

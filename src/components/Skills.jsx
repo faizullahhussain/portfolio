@@ -50,8 +50,9 @@ function Skills() {
 
             <ul className="skills-text-list">
               <li>
-                <strong>WordPress Development:</strong> WordPress, Elementor,
-                Custom CSS, Theme Customization, Responsive Websites
+                <strong>WordPress Development:</strong>
+                Elementor,WooCommerce,Custom Post Type,ACF, Custom CSS, Theme
+                Customization,
               </li>
               <li>
                 <strong>Core Engineering:</strong>JavaScript (ES6+), React.js,

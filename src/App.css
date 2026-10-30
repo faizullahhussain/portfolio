@@ -215,16 +215,16 @@ body {
 }
 
 .hero-title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--text-secondary);
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
   font-weight: 700;
 }
 
 .hero-description {
   font-size: 1rem;
   color: var(--text-secondary);
-  max-width: 500px;
+  max-width: 520px;
 }
 
 .hero-buttons {
